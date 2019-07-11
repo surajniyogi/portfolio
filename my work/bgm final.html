@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BGM</title>
+
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	body {
+		overflow: hidden;
+	}
+	.bgm-strip {
+		background-color: #555;
+		height: 50px;
+		padding: 0 0 0 0;
+		position: relative;
+	}
+	.nav-slide {
+		right: 0;
+	}
+	#nav.active {
+		right: 0;
+	}
+	#bgm-nav {
+		line-height: 50px;
+		background-color: #777;
+		position: absolute;
+		width: 20%;
+		top: 100%;
+		transition: all .3s;
+		right: -20%;
+		height: 614px;
+	}
+	#bgm-nav a {
+		text-decoration: none;
+		color: #eee;
+		display: block;
+		text-align: center;
+		text-transform: uppercase;
+		border-bottom: 1px solid #999;
+	}
+	.button {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		height: 32px;
+		width: 32px;
+	}
+	#bgm-btn {
+		background:transparent;
+		border: none;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+	}
+	hr {
+		height: 5px;
+		width: 30px;
+		border: none;
+		margin: 13% 0;
+		background-color: white;
+		transition: .3s all;
+		position: absolute;
+		right: 2px;
+		top: 8px;
+	}
+	#hr4.active {
+		opacity: 0;
+	}
+	#hr3.active {
+		opacity: 0;
+	}
+	#hr4 {
+		top: 0;
+	}
+	#hr3 {
+		top: 50%;
+	}
+	#hr1.active {
+		transform: rotate(45deg);
+	}
+	#hr2.active {
+		transform: rotate(-45deg);
+	}
+
+</style>
+</head>
+<body>
+<section>
+	<div class="bgm-strip">
+		<nav id="bgm-nav">
+			<a href="">Home</a>
+			<a href="">About</a>
+			<a href="">Gallary</a>
+			<a href="">Contact</a>
+			<a href="">Help</a>
+		</nav>
+	</div>
+	<div class="button">
+		<button id="bgm-btn">
+			<hr id="hr1">
+			<hr id="hr2">
+			<hr id="hr3">
+			<hr id="hr4">
+		</button>
+	</div>
+</section>
+<script src="js/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+	$("button").click(function() {
+		$("#nav").toggleClass('active')
+	});
+	$("button").click(function() {
+		$("#hr4").toggleClass('active')
+	});
+	$("button").click(function() {
+		$("#hr3").toggleClass('active')
+	});
+	$("button").click(function() {
+		$("#hr1").toggleClass('active')
+	});
+	$("button").click(function() {
+		$("#hr2").toggleClass('active')
+	});
+
+});
+</script>
+</body>
+</html>
