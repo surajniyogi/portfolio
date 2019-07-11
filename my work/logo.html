@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>logo</title>
+<style>
+
+	* {
+		list-style: none;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+	/*---------------- nav left ----------------*/
+	.nav {
+		height: 50px;
+	}
+	.nav-pad {
+		height: 88%;
+	}
+	.overflow {
+		height: 20px;
+		margin-top: 16px;
+		overflow: hidden;
+		position: relative;
+		width: 30%;
+		float: left;
+		margin-left: 5%;
+	} 
+	.overflow1 {
+		height: 20px;
+		margin-top:-34px;
+		overflow: hidden;
+		position: relative;
+		width: 30%;
+		float: right;
+		margin-left: 5%;
+	} 
+	.nav-hover {
+		width: 25%;
+		height: 100%;
+	}
+	 .nav-home, .nav-home1 {
+	 	display: block;
+		float: left;
+		transition: all .3s;
+		top: 0;
+		position: absolute;
+
+	 }
+	 .nav-home a {
+	 	color: red;
+	 }
+	 .nav-blog {
+	 	display: inline-block;
+		position: absolute;
+		left: 10%;
+		transition: all .3s;
+		top: 0;
+		margin: 0px 25%;
+	 }	
+	 .nav-about {
+	 	display: inline-block;
+		position: absolute;
+		left: 20%;
+		transition: all .3s;
+		top: 0;
+		margin: 0 46%;
+	 }
+	 .nav-hover:hover .nav-home {
+	 	top: -100%;
+	 }
+	 .nav-hover:hover .nav-home1 {
+	 	top: -100%;
+	 }
+	 .nav-hover:hover .nav-blog {
+	 	top: -100%;
+	 }
+	 .nav-hover:hover .nav-about {
+	 	top: -100%;
+	 }
+	 .nav-hover:hover .nav-home a{
+	 	color: red;
+	 }
+	 .nav-hover:hover .nav-home1 a{
+	 	color: red;
+	 }
+	 .nav-hover:hover .nav-blog a{
+	 	color: red;
+	 }
+	 .nav-hover:hover .nav-about a{
+	 	color: red;
+	 }
+	/*------------------ logo -------------------*/
+	.logo-dis {
+		text-align: center;
+		text-transform: uppercase;
+		border: solid blue;
+		width: 28%;
+		height: 45px;
+		margin-left: 35%;
+	}
+	h1 {
+		margin-top: 0; 
+		font-size: 40px;
+	}
+	a {
+		text-decoration: none;
+		color: black;
+	}
+</style>
+</head>
+<body>
+<!------------------------ logo ------------------------>
+<div class="logo">
+	<div class="logo-pad">
+
+		<div class="overflow">
+			<div class="nav-hover">
+				<div class="nav-home">
+					<a href=""><li>Home</li></a>
+					<a href=""><li>Home</li></a>
+				</div>
+			</div>
+			<div class="nav-hover">
+				<div style="margin: 0 22%;" class="nav-blog">
+					<a href=""><li>Services</li></a>
+					<a href=""><li>Services</li></a>
+				</div>
+			</div>
+			<div class="nav-hover">
+				<div class="nav-about">
+					<a href=""><li>About</li></a>
+					<a href=""><li>About</li></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="logo-dis">
+			<a href=""><h1>Fantasy World</h1></a>
+		</div>
+
+		<div class="overflow1">
+			<div class="nav-hover">
+				<div class="nav-home1">
+					<a href=""><li>Gallery</li></a>
+					<a href=""><li>Gallery</li></a>
+				</div>
+			</div>
+			<div class="nav-hover">
+				<div class="nav-blog">
+					<a href=""><li>News</li></a>
+					<a href=""><li>News</li></a>
+				</div>
+			</div>
+			<div class="nav-hover">
+				<div class="nav-about">
+					<a href=""><li>Contacts</li></a>
+					<a href=""><li>Contacts</li></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--------------------------- nav right ---------------------->
+</body>
+</html>
