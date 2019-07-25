@@ -1,0 +1,168 @@
+@media only screen and (max-width: 360px) {
+	#cnt-hd {
+		margin: 15% 0 10% 0;
+	}
+	#cnt-hd h1 {
+		font-size: 30px;
+	}
+	iframe {
+		height: 200px
+	}
+	.container {
+		text-align: center;
+	}
+	.adda {
+		margin: 10% 0;
+	}
+	.container h3 {
+		text-decoration: underline;
+	}
+	.blak {
+		height: 46em;
+	}
+	input, #msg-box, #snd-btn {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 460px) and (min-width: 361px){
+	#cnt-hd {
+		margin: 15% 0 10% 0;
+	}
+	#cnt-hd h1 {
+		font-size: 30px;
+	}
+	iframe {
+		height: 200px
+	}
+	.container {
+		text-align: center;
+	}
+	.adda {
+		margin: 10% 0;
+	}
+	.container h3 {
+		text-decoration: underline;
+	}
+	.blak {
+		height: 49em;
+	}
+	input, #msg-box, #snd-btn {
+		width: 100%;
+	}		
+}
+
+@media only screen and (max-width: 720px) and (min-width: 461px){
+	#cnt-hd {
+		margin: 10% 0 10% 0;
+	}
+	#cnt-hd h1 {
+		font-size: 30px;
+	}
+	iframe {
+		height: 250px
+	}
+	.container {
+		text-align: center;
+	}
+	.adda {
+		margin: 6% 0;
+	}
+	.container h3 {
+		text-decoration: underline;
+	}
+	.blak {
+		height: 52em;
+	}
+	input, #msg-box, #snd-btn {
+		width: 100%;
+	}	
+}
+
+@media only screen and (max-width: 920px) and (min-width: 721px){
+	#cnt-hd {
+		margin: 6% 0;
+	}
+	iframe {
+		height: 250px
+	}
+	.container {
+		text-align: center;
+	}
+	.adda {
+		margin: 6% 0;
+	}
+	.container h3 {
+		text-decoration: underline;
+	}
+	.blak {
+		height: 25em;
+	}
+	input, #msg-box, #snd-btn {
+		width: 100%;
+	}	
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 921px){
+	#cnt-hd {
+		margin: 4% 0;
+	}
+	.container {
+		text-align: center;
+	}
+	.adda {
+		margin: 6% 0;
+	}
+	.container h3 {
+		text-decoration: underline;
+	}
+	.blak {
+		height: 25em;
+	}
+	input, #msg-box, #snd-btn {
+		width: 100%;
+	}	
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1025px){
+	#cnt-hd {
+		margin: 3% 0;
+	}
+	.container {
+		text-align: center;
+	}
+	.adda {
+		margin: 6% 0;
+	}
+	.container h3 {
+		text-decoration: underline;
+	}
+	.blak {
+		height: 28em;
+	}
+	input, #msg-box, #snd-btn {
+		width: 100%;
+	}	
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1601px){
+	#cnt-hd {
+		margin: 3% 0;
+	}
+	.container {
+		text-align: center;
+	}
+	.adda {
+		margin: 6% 0;
+	}
+	.container h3 {
+		text-decoration: underline;
+	}
+	.blak {
+		height: 28em;
+	}
+	input, #msg-box, #snd-btn {
+		width: 100%;
+	}	
+}

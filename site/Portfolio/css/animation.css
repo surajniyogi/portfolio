@@ -1,0 +1,147 @@
+#html {
+	background-color: #56c4e9;
+	height: 9px;
+	width: 98%;
+	animation:html 2s;
+	float: right;
+}
+#css {
+	background-color: #56c4e9;
+	height: 9px;
+	width: 98%;
+	float: right;
+	animation: css 2s;
+}
+#php {
+	background-color: #56c4e9;
+	height: 9px;
+	width: 65%;
+	float: right;
+	animation: php 2s;
+}
+#bs {
+	background-color: #56c4e9;
+	height: 9px;
+	width: 60%;
+	float: right;
+	animation: bs 2s;
+}
+#jq {
+	background-color: #56c4e9;
+	height: 9px;
+	width: 75%;
+	float: right;
+	animation: jq 2s;
+}
+
+#painter {
+	background-color: #56c4e9;
+	height: 9px;
+	width: 95%;
+	animation: paint-skills 2s;
+}
+#photoshop {
+	background-color: #56c4e9;
+	height: 9px;
+	width: 95%;
+	animation: ps-skills 2s;
+}
+#illust {
+	background-color: #56c4e9;
+	height: 9px;
+	width: 85%;
+	animation: ill-skills 2s;
+}
+#draw {
+	background-color: #56c4e9;
+	height: 9px;
+	width: 70%;
+	animation: draw-skills 2s;
+}
+#anime {
+	background-color: #56c4e9;
+	height: 9px;
+	width: 85%;
+	animation: anime-skills 2s;
+}
+@keyframes paint-skills {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 95%;
+	}
+}
+@keyframes ps-skills {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 95%;
+	}
+}
+@keyframes ill-skills {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 85%;
+	}
+}
+@keyframes draw-skills {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 70%;
+	}
+}
+@keyframes anime-skills {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 85%;
+	}
+}
+
+@keyframes html {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 98%;
+	}
+}
+@keyframes css {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 98%;
+	}
+}
+@keyframes php {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 65%;
+	}
+}
+@keyframes jq {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 75%;
+	}
+}
+@keyframes bs {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 60%;
+	}
+}

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Signika', sans-serif !important;
+}
+/*--------------- head --------------*/
+#addr {
+    float: left;
+}
+#forml {
+    float: right;
+}
+#formadd {
+    background-image: url(../img/banner2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin-top: 3%;
+}
+.text-secondary {
+    color: #f6ecfb!important;
+}
+.form h4 {
+    color: #fff;
+}
+.blak {
+    background-color:#130b23d6;
+    padding: 3%;
+    height: 24em;
+}
+.container {
+        text-align: center;
+}
+.container h3 {
+    text-decoration: underline;
+}
+form {
+    margin-top: 4%;
+}
+input {
+    padding: 5%;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    width: 280px;
+    margin: 1%;
+}
+#msg-box {
+    width: 577px;
+    resize: vertical;
+    height: 130px;
+    padding: 5%;
+    border-radius: 5px;
+    border: none;
+    margin: 1%;
+    color: #555;
+}
+#snd-btn {
+    width: 577px;
+    padding: 2%;
+    transition: .3s all;
+}
