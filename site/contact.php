@@ -8,6 +8,10 @@
 		    background-color: #dbd8de;
 		    margin-top: 5%;
 		}
+		.adda a {
+			text-decoration: none;
+			color: #fff
+		}
     </style>
 </head>
 <body>
@@ -27,15 +31,15 @@
 			<div class="container text-secondary wow slideInLeft">
 				<div class="adda">
 					<h3>Give me a call :</h3>
-					<h5>+91 9654851506</h5>
+					<a href="tel:+919654851506">+91 9654851506</a>
 				</div>
 				<div class="adda">
 					<h3>Mail me at :</h3>
-					<h5>surajniyogi@yahooin</h5>
+					<a href="mailto:surajniyogi@yahoo.in">surajniyogi@yahoo.in</a>
 				</div>
 				<div class="adda">
 					<h3>Find me at :</h3>
-					<h5>543-A/21, <br>Shiji Park, Khandsa Road, <br>Gurgaon, Haryana<br>122001</h5>
+					<h5>543-A/21, <br>Shivji Park, Khandsa Road, <br>Gurgaon, Haryana<br>122001</h5>
 				</div>
 			</div>
 		</div>

@@ -45,6 +45,14 @@
 	width: 170px;
 	padding-top: 7px;
 }
+#dropdownMenuButton {
+	background: transparent!important;
+	width: 170%!important;
+	border-radius: 0!important;
+	height: 40px!important;
+	border-color: #a0f9e8!important;
+	color: #a0f9e8!important;
+}
 /******************about****************/
 #about {
 	overflow: hidden;
@@ -231,9 +239,8 @@ footer {
 	float: right;
 	padding-left: 20%;
 }
-#ftr i {
-	margin: 5% 12px;
-	transition: .3s all;
-	text-decoration: none;
-	color: white;
+#ftr img {
+	width: 10%;
+	float: left;
+	margin: 0 2%;	
 }

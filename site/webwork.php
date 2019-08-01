@@ -5,28 +5,16 @@
 	<?php require_once("include/header.php")?>
 <style>
 	@media only screen and (max-width: 360px) {
-	#bound {
-		width: 100%;
-		margin: 5% 0;
-		padding: 0 10%;
-	}
 	#web-text {
 		margin-bottom:6%; 
 	}
 	#web-text h1 {
 		font-size: 30px;
 	}
-	.hover{
-		margin-bottom: 4%;
-	}
 }
 
 	@media only screen and (max-width: 460px) and (min-width: 361px){
-		#bound {
-			width: 100%;
-			margin: 2% 0;
-			padding: 0 10%;
-		}
+	
 		#web-text {
 			margin-bottom:6%; 
 			padding-top: 10%;
@@ -34,52 +22,36 @@
 		#web-text h1 {
 			font-size: 30px;
 		}
-		.hover{
-			margin-bottom: 4%;
-		}	
+	
 	}
 
 	@media only screen and (max-width: 720px) and (min-width: 461px){
-		#bound {
-			width: 50%;
-			margin: 2% 0;
-			padding: 0 5%;
-		}
-		#web-text {
+			#web-text {
 			margin-bottom:4%; 
 			padding-top: 5%;
 		}
 		#web-text h1 {
 			font-size: 30px;
 		}
-		.hover{
-			margin-bottom: 4%;
-		}	
+
 	}
 
 	@media only screen and (max-width: 920px) and (min-width: 721px){
-		#bound {
-			width: 33%;
-			margin: 2% 0;
-			padding: 0 5%;
-		}
+	
 		#web-text {
 			margin-bottom:4%; 
 			padding-top: 1%;
 		}
 		#web-text h1 {
 			font-size: 30px;
-		}
-		.hover{
-			margin-bottom: 4%;
-		}	
+		
 	}
 
 </style>
 </head>
 <body>
 <?php require_once("include/newmenu.php")?>
-<div id="web">
+<div id="webb">
 	<div class="container">
 		<div class="text-center" id="web-text">
 			<h1>My Website Designs</h1>

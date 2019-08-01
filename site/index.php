@@ -6,6 +6,7 @@
 </head>
 <body>
 <?php require_once("include/newmenu.php"); ?>
+<script src="https://kit.fontawesome.com/1bb3692e92.js"></script>
 <script>
 	$(document).ready(function() {
 		$("a[href^='index.php#']").click(function() {
@@ -43,7 +44,26 @@
 			<h5 class="text-center wow bounceInLeft">Along with web development, I'm a graphic designer as well as a digital artist. So if your need a graphic content or a personal digital artwork such as digital painting or vector art, I'm the right person.</h5>
 		</div>
 		<div class="d-flex justify-content-center text-center wow rubberBand" id="rs-btn">
-			<a href="resume.jpg">Download Resume</a>
+			<a href="Resume.pdf">Download Resume</a>
+
+			<div class="dropdown" id="port-btn">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Portfolio
+				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					<a class="dropdown-item" href="#">Web Design</a>
+					<a class="dropdown-item" href="#">Graphic Design</a>
+				</div>
+			</div>
+			<!-- <li class="nav-item dropdown">
+		      	<a class="nav-link dropdown-toggle wow tada" href="" id="dropdownMenuButton" data-toggle="dropdown">Portfolio</a>
+		      	<div class="dropdown-menu">
+		        	<a class="dropdown-item" href="webwork.php">Web Projects</a>
+			        <a class="dropdown-item" href="portfolio.php">Graphic Work</a>
+		      	</div>
+		    </li> -->
+
+
 		</div>
 	</div>
 </div>
@@ -52,45 +72,45 @@
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ab">
 		<div class="text-center">
 			<h1 class="wow fadeInDown">ABOUT MYSELF</h1>
-			<p class="wow zoomIn">I've been working on graphic softwares such as Photoshop, Illustrator and Corel Painter for for almost 4-5 years now. Apart from digital artworks and website desgining, I'm really passionate about digital paintings and football. And I'm also a hobbyist sketch artist.</p>
+			<p class="wow zoomIn">I've been working on graphic softwares such as Photoshop, Illustrator and Corel Painter for almost 4-5 years now. Apart from digital artworks and website designing, I'm really passionate about digital paintings and football. And I'm also a hobbyist sketch artist.</p>
 		</div>
 	</div>
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="sk-w">
 		<div class="about-skills wow bounceInLeft">
 			<h2 class="text-right">Website Skills</h2>
 			<p class="text-right">HTML</p>
-			<div class="holder"><div id="html"></div></div>
+			<div class="holder"><div id="html" data-aos="fade-left"></div></div>
 
 			<p class="text-right">CSS</p>
-			<div class="holder"><div id="css"></div></div>
+			<div class="holder"><div id="css" data-aos="fade-left"></div></div>
 
 			<p class="text-right">PHP</p>
-			<div class="holder"><div id="php"></div></div>
+			<div class="holder"><div id="php" data-aos="fade-left"></div></div>
 
 			<p class="text-right">Bootstrap</p>
-			<div class="holder"><div id="bs"></div></div>
+			<div class="holder"><div id="bs" data-aos="fade-left"></div></div>
 
 			<p class="text-right">JS/jquery</p>
-			<div class="holder"><div id="jq"></div></div>
+			<div class="holder"><div id="jq" data-aos="fade-left"></div></div>
 		</div>
 	</div>
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="sk-g">
 		<div class="about-skills wow bounceInRight">
 			<h2 class="text-left">Graphics Skills</h2>
 			<p>Corel Painter 2018</p>
-			<div class="holder"><div id="painter"></div></div>
+			<div class="holder"><div id="painter" data-aos="fade-right"></div></div>
 
 			<p>Photoshop CS6</p>
-			<div class="holder"><div id="photoshop"></div></div>
+			<div class="holder"><div id="photoshop" data-aos="fade-right"></div></div>
 
 			<p>Illustrator CC18</p>
-			<div class="holder"><div id="illust"></div></div>
+			<div class="holder"><div id="illust" data-aos="fade-right"></div></div>
 
 			<p>Corel Draw X7</p>
-			<div class="holder"><div id="draw"></div></div>
+			<div class="holder"><div id="draw" data-aos="fade-right"></div></div>
 
 			<p>Animate</p>
-			<div class="holder"><div id="anime"></div></div>
+			<div class="holder"><div id="anime" data-aos="fade-right"></div></div>
 
 		</div>
 	</div>
@@ -100,7 +120,7 @@
 	<div class="blk">
 		<div class="ed-pad">
 			<div class="text-center" id="ql">
-				<h1>My Qualification</h1>
+				<h1>My Qualifications</h1>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="ed-l">
 				<div class="yr-box flex-column-reverse">
@@ -114,7 +134,7 @@
 					<div class="ed-card-r xs-card wow bounceInRight">
 						<h4>Arena Animation</h4>
 						<p>Graphics and Web Designing and Development</p>
-						<p>Arena Animation Sec-14</p>
+						<p>Arena Animation Sec-14,</p>
 						<p>Gurgaon</p>
 					</div>
 
@@ -142,7 +162,7 @@
 				<div class="ed-card-r lg-card wow bounceInRight">
 					<h4>Arena Animation</h4>
 					<p>Graphics and Web Designing and Development</p>
-					<p>Arena Animation Sec-14</p>
+					<p>Arena Animation Sec-14,</p>
 					<p>Gurgaon</p>
 				</div>
 
