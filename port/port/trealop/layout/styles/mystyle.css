@@ -1,0 +1,10 @@
+.banner1 {
+    background-image: url(../../images/demo/backgrounds/banner.jpg);
+    background-attachment: fixed;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background-color: #02575f;
+}
